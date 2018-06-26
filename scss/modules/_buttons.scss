@@ -1,0 +1,23 @@
+// Buttons
+
+.navbar .navbar-toggle {
+  margin-top:1rem;
+
+    .icon-bar{
+      background: $primary-color;
+
+    }
+}
+
+
+
+.shop-now button{
+   width:20rem;
+   height:8rem;
+   color:#10ad95;
+   font-size: 3rem;
+   font-weight: 600;
+   background: #fff;
+   border:2px solid #10ad95 ;
+   margin:180% 0 0 20%;
+}

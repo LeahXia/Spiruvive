@@ -1,0 +1,397 @@
+/*
+	SpiruVive
+	Author: Leah Xia
+	Version: 0.0.1
+*/
+/* BASE - Base styles, variables, mixins, etc */
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+/* line 2, ../scss/base/_normalize.scss */
+.elements {
+  padding: 0 7%;
+}
+/* line 5, ../scss/base/_normalize.scss */
+.elements li {
+  padding-top: 3%;
+}
+
+/* line 10, ../scss/base/_normalize.scss */
+.shop-now {
+  margin: 8% auto;
+}
+
+/* line 14, ../scss/base/_normalize.scss */
+.shop-list {
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.7em;
+  color: #aaa;
+}
+
+/* line 9, ../scss/base/_base.scss */
+h1, h2, h3, h4 {
+  color: #6ead58;
+}
+
+/* line 20, ../scss/base/_base.scss */
+a {
+  color: #6ead58;
+}
+
+/* line 24, ../scss/base/_base.scss */
+.text-section h2 a, .text-section-contact h2 a {
+  color: #9bc68b;
+}
+
+/* line 28, ../scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 33, ../scss/base/_base.scss */
+.navbar-brand img {
+  width: 140px;
+}
+
+/* line 36, ../scss/base/_base.scss */
+.image {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 41, ../scss/base/_base.scss */
+.image-bag {
+  width: 90%;
+  margin: 0 5%;
+}
+
+/* line 46, ../scss/base/_base.scss */
+.image-elements {
+  width: 90%;
+}
+
+/* line 50, ../scss/base/_base.scss */
+.image-body {
+  width: 80%;
+  margin: 0 10%;
+}
+
+/* line 55, ../scss/base/_base.scss */
+.image-package {
+  width: 85%;
+  margin: 0 11%;
+}
+
+/* line 60, ../scss/base/_base.scss */
+.image-team {
+  width: 360px;
+  height: 360px;
+  margin-bottom: 10%;
+}
+
+/* line 66, ../scss/base/_base.scss */
+.image-product {
+  width: 100%;
+  margin: 15% auto 0;
+}
+
+/* line 72, ../scss/base/_base.scss */
+.image-shop {
+  width: 20rem;
+  height: 20rem;
+}
+
+/* line 77, ../scss/base/_base.scss */
+.image-shop-big {
+  width: 30rem;
+  height: 30rem;
+}
+
+/* MODULES - Individual site components */
+/* line 2, ../scss/modules/_typography.scss */
+h1 {
+  font-size: 11rem;
+  color: #fff;
+  text-shadow: 12px 10px 18px #555;
+  letter-spacing: 15px;
+}
+
+/* line 10, ../scss/modules/_typography.scss */
+h2 {
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+/* line 15, ../scss/modules/_typography.scss */
+h3 {
+  font-size: 5.5rem;
+  color: #6e6e6e;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* line 23, ../scss/modules/_typography.scss */
+h4 {
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 12px 10px 18px #555;
+  letter-spacing: 15px;
+  margin-top: 5%;
+}
+
+/* line 33, ../scss/modules/_typography.scss */
+h5 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* line 2, ../scss/modules/_blocks.scss */
+.block {
+  padding: 0;
+}
+
+/* line 6, ../scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 3, ../scss/modules/_buttons.scss */
+.navbar .navbar-toggle {
+  margin-top: 1rem;
+}
+/* line 6, ../scss/modules/_buttons.scss */
+.navbar .navbar-toggle .icon-bar {
+  background: #6ead58;
+}
+
+/* line 14, ../scss/modules/_buttons.scss */
+.shop-now button {
+  width: 20rem;
+  height: 8rem;
+  color: #10ad95;
+  font-size: 3rem;
+  font-weight: 600;
+  background: #fff;
+  border: 2px solid #10ad95;
+  margin: 180% 0 0 20%;
+}
+
+/* line 3, ../scss/modules/_sections.scss */
+.showcase {
+  height: auto;
+}
+
+/* line 8, ../scss/modules/_sections.scss */
+.showcase-first, .showcase-spirulina, .showcase-team, .showcase-contact {
+  height: 80vh;
+  margin-top: 70px;
+  background: linear-gradient(to right, rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.3)), url("../img/spiruvive-shoot.jpg") no-repeat top center;
+}
+/* line 12, ../scss/modules/_sections.scss */
+.showcase-first .showcase-content, .showcase-spirulina .showcase-content, .showcase-team .showcase-content, .showcase-contact .showcase-content {
+  padding: 10% 2%;
+  text-align: center;
+}
+
+/* line 19, ../scss/modules/_sections.scss */
+.showcase-spirulina, .showcase-team, .showcase-contact {
+  height: 55vh;
+  margin-top: 90px;
+  background: linear-gradient(to right, rgba(180, 180, 180, 0.5), rgba(180, 180, 180, 0.3)), url("../img/lake-louise-canada.jpg") no-repeat center/cover;
+}
+
+/* line 26, ../scss/modules/_sections.scss */
+.text-section, .text-section-contact {
+  max-height: 6000px;
+  text-align: center;
+  padding: 10% 2% 3%;
+}
+
+/* line 32, ../scss/modules/_sections.scss */
+.text-section-contact {
+  padding: 2%;
+}
+
+/* line 37, ../scss/modules/_sections.scss */
+.smoothie {
+  width: 100%;
+  height: 300px;
+  background: url("../img/Smoothie.jpg") no-repeat 0 30%;
+  margin-bottom: 5%;
+}
+
+/* line 44, ../scss/modules/_sections.scss */
+.showcase-team {
+  background: url("../img/team.jpg") no-repeat 40% 77%;
+}
+
+/* line 51, ../scss/modules/_sections.scss */
+.showcase-contact {
+  background: linear-gradient(to right, rgba(200, 200, 200, 0.5), rgba(200, 200, 200, 0.3)), url("../img/contact.jpg") no-repeat 20% 60%;
+}
+
+/* LAYOUTS - Page layout styles */
+/*Nav setup*/
+/* line 2, ../scss/layouts/_nav.scss */
+nav {
+  background: #fff;
+}
+/* line 6, ../scss/layouts/_nav.scss */
+nav .navbar-brand {
+  padding: 0 15px;
+}
+/* line 10, ../scss/layouts/_nav.scss */
+nav .nav-item {
+  height: 70px;
+  padding-top: 10px;
+}
+
+/* line 18, ../scss/layouts/_nav.scss */
+.navbar-header {
+  height: 70px;
+  display: flex;
+  align-content: center;
+}
+
+/* line 2, ../scss/layouts/_footer.scss */
+footer {
+  max-height: 800px;
+  width: 100%;
+  background: #fafafa;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* line 11, ../scss/layouts/_footer.scss */
+.copyright {
+  margin-top: 20px;
+}
+
+/* line 15, ../scss/layouts/_footer.scss */
+footer a {
+  color: #777;
+}
+
+/* line 19, ../scss/layouts/_footer.scss */
+aside {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  float: right;
+  padding-top: 0.5%;
+  margin-right: 20px;
+}
+/* line 27, ../scss/layouts/_footer.scss */
+aside a i {
+  color: #fff;
+  font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+  /* line 2, ../scss/layouts/_mobile.scss */
+  .showcase-first, .showcase-spirulina, .showcase-team, .showcase-contact {
+    height: 60vw;
+    background-size: auto;
+    background-position: 70%;
+  }
+
+  /* line 9, ../scss/layouts/_mobile.scss */
+  h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    text-shadow: 15px 15px 18px #666;
+  }
+
+  /* line 16, ../scss/layouts/_mobile.scss */
+  h2 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  /* line 21, ../scss/layouts/_mobile.scss */
+  .text-section, .text-section-contact {
+    padding: 4% 2% 3%;
+  }
+
+  /* line 25, ../scss/layouts/_mobile.scss */
+  .image-package {
+    width: 85%;
+  }
+
+  /* line 29, ../scss/layouts/_mobile.scss */
+  .shop-now button {
+    padding: 0;
+    margin: 0;
+    margin: 5% 0;
+  }
+
+  /* line 35, ../scss/layouts/_mobile.scss */
+  .showcase-team {
+    background-size: 100%;
+  }
+  /* line 37, ../scss/layouts/_mobile.scss */
+  .showcase-team h4 {
+    font-size: 4.5rem;
+    margin-top: 5%;
+  }
+
+  /* line 44, ../scss/layouts/_mobile.scss */
+  .navbar-header button {
+    flex: 1;
+  }
+
+  /* line 48, ../scss/layouts/_mobile.scss */
+  .navbar-header a {
+    flex: 20;
+    text-align: center;
+    padding: 0;
+    margin-left: -59px;
+  }
+}
+@media (max-width: 500px) {
+  /* line 66, ../scss/layouts/_mobile.scss */
+  h1 {
+    font-size: 4rem;
+  }
+
+  /* line 70, ../scss/layouts/_mobile.scss */
+  h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  /* line 76, ../scss/layouts/_mobile.scss */
+  .shop-now button {
+    width: 10rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin: 15% 0;
+  }
+
+  /* line 83, ../scss/layouts/_mobile.scss */
+  .shop-now {
+    margin: 4% auto;
+  }
+
+  /* line 87, ../scss/layouts/_mobile.scss */
+  .smoothie {
+    height: 200px;
+    background-size: cover;
+    background-position: 0 10%;
+  }
+
+  /* line 93, ../scss/layouts/_mobile.scss */
+  .image-team {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10%;
+  }
+}

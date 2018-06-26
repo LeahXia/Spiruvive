@@ -1,0 +1,100 @@
+@media (max-width:768px) {
+  .showcase-first{
+    height:60vw;
+    background-size: auto ;
+    background-position: 70%;
+
+  }
+
+  h1{
+    font-size: 6rem;
+    font-weight: 600;
+    text-shadow:15px 15px 18px #666;
+
+  }
+
+  h2{
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  .text-section{
+     padding: 4% 2% 3%;
+  }
+
+  .image-package{
+     width:85%;
+  }
+
+  .shop-now button{
+     padding:0;
+     margin:0;
+     margin:5% 0;
+  }
+
+  .showcase-team{
+    background-size: 100%;
+    h4{
+      font-size:4.5rem;
+      margin-top:5%;
+    }
+
+  }
+
+  .navbar-header button{
+    flex:1;
+  }
+
+  .navbar-header a{
+    flex:20;
+    text-align: center;
+    padding:0;
+    margin-left: -59px;
+  }
+
+  .navbar-brand{
+
+  }
+
+
+
+
+}
+
+
+@media (max-width:500px){
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+
+  .shop-now button{
+     width:10rem;
+     height:4rem;
+     font-size: 2rem;
+     margin:15% 0;
+  }
+
+  .shop-now{
+     margin: 4% auto;
+  }
+
+  .smoothie{
+    height:200px;
+    background-size: cover;
+    background-position: 0 10%;
+  }
+
+  .image-team{
+    width:210px;
+    height:210px;
+    margin-bottom: 10%;
+  }
+
+
+}

@@ -1,0 +1,80 @@
+body{
+  font-family:$base-font-family;
+	font-size:$base-font-size;
+	line-height:1.7em;
+	color:#aaa;;
+}
+
+
+h1,h2,h3,h4{
+   color:$primary-color;
+}
+
+// .active{
+//   color:#fff !important;
+//   background: #3071a9;
+//   border-color:#285e8e;
+//   text-decoration: none;
+// }
+
+a{
+	color:$primary-color;
+}
+
+.text-section h2 a{
+  color:lighten($primary-color, 15%);
+}
+
+ul,li{
+	list-style:none;
+}
+
+// image
+.navbar-brand img{
+  width:140px;
+}
+.image{
+   width:100%;
+   text-align: center;
+}
+
+.image-bag{
+   width:90%;
+   margin:0 5%;
+}
+
+.image-elements{
+   width:90%;
+}
+
+.image-body{
+   width:80%;
+   margin:0 10%;
+}
+
+.image-package{
+   width:85%;
+   margin:0 11%;
+}
+
+.image-team{
+  width:360px;
+  height:360px;
+  margin-bottom: 10%;
+}
+
+.image-product{
+  width:100%;
+  margin: 15% auto 0;
+
+}
+
+.image-shop{
+  width:20rem;
+  height:20rem;
+}
+
+.image-shop-big{
+  width:30rem;
+  height:30rem;
+}

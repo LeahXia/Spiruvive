@@ -1,0 +1,55 @@
+// Section Setup
+// Showcase Area
+.showcase{
+   height:auto;
+
+}
+
+.showcase-first{
+   height:80vh;
+   margin-top:70px;
+   background:linear-gradient(to right, rgba(200,200,200,0.5),rgba(200,200,200,0.3)), url('../img/spiruvive-shoot.jpg') no-repeat top center;
+   .showcase-content{
+		padding:10% 2%;
+		text-align:center;
+	}
+
+}
+
+.showcase-spirulina{
+  @extend .showcase-first;
+  height:55vh;
+  margin-top:90px;
+  background:linear-gradient(to right, rgba(180,180,180,0.5),rgba(180,180,180,0.3)), url('../img/lake-louise-canada.jpg') no-repeat center/cover ;
+}
+
+.text-section{
+   max-height:6000px;
+   text-align:center;
+   padding: 10% 2% 3%;
+}
+
+.text-section-contact{
+  @extend .text-section;
+  padding:2%;
+}
+
+.smoothie{
+  width:100%;
+  height:300px;
+  background:url('../img/Smoothie.png') no-repeat 0 30%;
+  margin-bottom: 5%;
+}
+
+.showcase-team{
+  @extend .showcase-spirulina;
+
+  background: url('../img/team.jpg') no-repeat 40% 77%;
+
+}
+
+.showcase-contact{
+  @extend .showcase-spirulina;
+
+  background:linear-gradient(to right, rgba(200,200,200,0.5),rgba(200,200,200,0.3)),  url('../img/contact.jpeg') no-repeat 20% 60%;
+}
